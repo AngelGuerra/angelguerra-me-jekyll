@@ -1,0 +1,45 @@
+development:
+  es:
+    title: Desarrollo
+    items:
+      - name: OpenSUSE Tumbleweed
+        url: https://www.opensuse.org/
+        image: ""
+      - name: VSCode
+        url: https://code.visualstudio.com/
+        image: ""
+      - name: Github
+        url: https://github.com/
+        image: ""
+
+comunication:
+  es:
+    title: Comunicación
+    items:
+      - name: Slack
+        url: https://slack.com/
+        image: ""
+      - name: Telegram
+        url: https://web.telegram.org/
+        image: ""
+      - name: WhatsApp
+        url: https://web.whatsapp.com/
+        image: ""
+      - name: Google Duo
+        url: https://duo.google.com/
+        image: ""
+      - name: Google Gmail
+        url: https://gmail.google.com/
+        image: ""
+      - name: Proton Mail
+        url: https://protonmail.com/
+        image: ""
+
+# https://www.dawntraoz.com/uses/ Styling?
+# https://james.brooks.page/uses/ Categories?
+
+# VSCode extensions
+# Hardware (PC and components, Smartphone...)
+# Navigation (Firefox, Chromium, DuckDuckGo)
+# Kickboxing and ninjutsu (Guards...)
+# Parenting (love, patient, time, ...)

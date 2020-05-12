@@ -1,0 +1,12 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# NPM
+node_modules
+
+# Webpack
+assets/webpack

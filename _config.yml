@@ -1,0 +1,41 @@
+# https://medium.com/@jontorrado/working-with-webpack-4-es6-postcss-with-preset-env-and-more-93b3d77db7b2
+# https://html5up.net/uploads/demos/identity/
+url: https://angelguerra.me # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: Á. Guerra # the name of your site, e.g. ACME Corp.
+description: Padre de dos, pareja, deportista, ninja y programador Full Stack en continuo aprendizaje
+lang: es-ES
+langName: Spanish
+timezone: Europe/Madrid
+ogimage: /icon-512x512.png
+author:
+  full_name: Ángel Guerra
+  first_name: Ángel
+  last_name: Guerra
+
+# Google
+google:
+  analytics: ""
+
+# Social
+social:
+  avatar: /assets/images/avatar.png
+  github: https://github.com/AngelGuerra
+  linkedin: https://es.linkedin.com/in/angel-guerra-revilla
+  twitter: https://twitter.com/angellguerra
+
+# Plugins a aplicar
+plugins:
+  # - jekyll-sitemap
+  - jekyll-last-modified-at
+
+# Módulos excluidos
+exclude:
+  - loaders.js
+  - package*
+  - plugins.js
+  - "*.config.js"
+  - webpack
+  - dark-mode.js
+  - README.md
+  - uses

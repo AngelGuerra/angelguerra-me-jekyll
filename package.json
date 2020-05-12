@@ -1,0 +1,33 @@
+{
+  "name": "angelguerra",
+  "version": "1.0.0",
+  "description": "Ángel Guerra's personal webpage",
+  "private": true,
+  "scripts": {
+    "clean": "jekyll clean && ./node_modules/.bin/rimraf assets/webpack",
+    "dev": "./node_modules/.bin/webpack --progress --profile --colors --watch --verbose --display-error-details | jekyll serve --livereload --incremental --host=0.0.0.0",
+    "build": "jekyll clean && ./node_modules/.bin/rimraf assets/webpack && ./node_modules/.bin/webpack --env=prod --progress --profile --colors --verbose --display-error-details && JEKYLL_ENV=production jekyll build && ./node_modules/.bin/purgecss --css _site/assets/webpack/main.bundle.css --content _site/**/*.html,_site/**/*.js --output _site/assets/webpack/main.bundle.css"
+  },
+  "author": "Ángel Guerra",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "rimraf": "^3.0.2",
+    "simple-icons": "^2.11.0",
+    "stylelint": "^13.3.3",
+    "stylelint-webpack-plugin": "^2.0.0",
+    "tailwindcss": "^1.4.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

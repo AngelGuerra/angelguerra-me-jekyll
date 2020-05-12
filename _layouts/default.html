@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/webpack/main.bundle.css" | relative_url }}">
+</head>
+
+<body class="flex h-screen items-center justify-center p-3">
+  <main class="rounded overflow-hidden shadow-lg max-w-4xl w-screen p-6 md:p-10 xl:p-16 flex flex-col bg-white">
+
+    {% include breadcrumbs.html %}
+
+    <section class="mb-3">
+      <h1 class="font-light text-4xl">Tecnologías</h1>
+      <p class="font-light text-xl">En mi día a día utilizo las siguientes tecnologías</p>
+    </section>
+
+    <section>
+      {{ content }}
+    </section>
+  </main>
+
+  <script src="{{ "/assets/webpack/main.bundle.js" | relative_url }}"></script>
+</body>
+
+</html>

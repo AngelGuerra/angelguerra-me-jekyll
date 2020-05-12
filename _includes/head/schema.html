@@ -1,0 +1,26 @@
+<script type="application/json+ld">
+    {
+        "@context": "http://www.schema.org",
+        "@type": "Person",
+        "name": "{{ site.author.full_name }}",
+        "jobTitle": "Full Stack Developer",
+        "height": "182cm",
+        "gender": "male",
+        "url": "{{ site.url }}",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Cantabria",
+            "addressCountry": "Spain"
+        },
+        "sameAs": [
+            "{{ site.social.twitter }}",
+            "{{ site.social.linkedin }}",
+            "{{ site.social.github }}"
+        ],
+        "email": "a.guerrarevilla@gmail.com",
+        "birthDate": "1990-03-01",
+        "birthPlace": "Santander",
+        "nationality": "Spanish",
+        "image": "{{ site.social.avatar | absolute_url }}"
+    }
+</script>
