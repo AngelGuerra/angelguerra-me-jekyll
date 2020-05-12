@@ -2,7 +2,8 @@ module.exports = {
   content: ["_site/**/*.html", "_site/**/*.js"],
   css: ["_site/assets/webpack/main.bundle.css"],
   output: "_site/assets/webpack/main.bundle.css",
-  whitelist: ["dark-mode"],
+  // Clases de modo oscuro y que se añaden dinámicamente por data-attribute
+  whitelist: ["dark-mode", "w-5", "w-full", "inline-block", "fill-current"],
   extractors: [
     {
       extractor: (content) => {
