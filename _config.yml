@@ -8,8 +8,10 @@ lang: es-ES
 langName: Spanish
 timezone: Europe/Madrid
 ogimage: /icon-512x512.png
+avatar: /assets/images/avatar.png
 author:
   full_name: Ángel Guerra
+  position: Full Stack Developer
   first_name: Ángel
   last_name: Guerra
 
@@ -19,10 +21,15 @@ google:
 
 # Social
 social:
-  avatar: /assets/images/avatar.png
-  github: https://github.com/AngelGuerra
-  linkedin: https://es.linkedin.com/in/angel-guerra-revilla
-  twitter: https://twitter.com/angellguerra
+  - name: Github
+    icon: github
+    url: https://github.com/AngelGuerra
+  - name: LinkedIn
+    icon: linkedin
+    url: https://es.linkedin.com/in/angel-guerra-revilla
+  - name: Twitter
+    icon: twitter
+    url: https://twitter.com/angellguerra
 
 # Plugins a aplicar
 plugins:

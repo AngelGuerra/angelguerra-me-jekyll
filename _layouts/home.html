@@ -9,31 +9,23 @@
   <main class="transition duration-500 ease-in-out rounded overflow-hidden shadow-lg max-w-md w-full flex flex-col items-center justify-center text-center bg-white dark:bg-gray-900 dark:text-gray-100">
     <section class="flex items-center w-full pb-6 pt-10 xl:pt-16">
       <span class="w-full mr-6 h-px bg-gray-300 flex-grow"></span>
-      <img src="/assets/images/avatar.png" alt="" class="rounded-full border border-gray-300 flex-grow-0 flex-shrink-0 flex-basis-32" />
+      <img src="{{ site.avatar }}" alt="" class="rounded-full border border-gray-300 flex-grow-0 flex-shrink-0 flex-basis-32" />
       <span class="w-full ml-6 h-px bg-gray-300 flex-grow"></span>
     </section>
 
     <section class="flex flex-col items-center w-full px-10 xl:px-16">
-      <h1 class="font-light text-4xl">Ángel Guerra</h1>
-      <h2 class="font-light text-2xl">Full Stack Developer</h2>
+      <h1 class="font-light text-4xl">{{ site.author.full_name }}</h1>
+      <h2 class="font-light text-2xl">{{ site.author.position }}</h2>
     </section>
 
     <section class="inline-flex items-center justify-around w-full p-10 xl:p-16">
-      <a class="text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="github">
-        <noscript>
-          Github
-        </noscript>
-      </a>
-      <a class="text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="linkedin">
-        <noscript>
-          LinkedIn
-        </noscript>
-      </a>
-      <a class="text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ site.social.twitter }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="twitter">
-        <noscript>
-          Twitter
-        </noscript>
-      </a>
+      {% for social in site.social %}
+        <a class="text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ social.url }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="{{ social.icon }}">
+          <noscript>
+            {{ social.name }}
+          </noscript>
+        </a>
+      {% endfor %}
     </section>
   </main>
 
