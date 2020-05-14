@@ -1,45 +1,61 @@
-development:
+- key: development
   es:
     title: Desarrollo
     items:
       - name: OpenSUSE Tumbleweed
         url: https://www.opensuse.org/
-        image: ""
+        icon: opensuse
+      - name: Ubuntu
+        url: https://ubuntu.com/
+        icon: ubuntu
       - name: VSCode
         url: https://code.visualstudio.com/
-        image: ""
+        icon: visualstudiocode
       - name: Github
         url: https://github.com/
-        image: ""
+        icon: github
 
-comunication:
+- key: comunication
   es:
     title: Comunicación
     items:
       - name: Slack
         url: https://slack.com/
-        image: ""
+        icon: slack
       - name: Telegram
         url: https://web.telegram.org/
-        image: ""
+        icon: telegram
       - name: WhatsApp
         url: https://web.whatsapp.com/
-        image: ""
-      - name: Google Duo
-        url: https://duo.google.com/
-        image: ""
+        icon: whatsapp
       - name: Google Gmail
         url: https://gmail.google.com/
-        image: ""
+        icon: gmail
       - name: Proton Mail
         url: https://protonmail.com/
-        image: ""
+        icon: protonmail
+
+- key: navigation
+  es:
+    title: Navegación
+    items:
+      - name: Mozilla Firefox
+        url: https://www.mozilla.org/es-ES/firefox/new/
+        icon: mozillafirefox
+      - name: DuckDuckGo
+        url: https://duckduckgo.com/
+        icon: duckduckgo
+      - name: Chromium
+        url: https://www.chromium.org/
+        icon: googlechrome
+      - name: Tor
+        url: https://www.torproject.org/
+        icon: tor
 
 # https://www.dawntraoz.com/uses/ Styling?
 # https://james.brooks.page/uses/ Categories?
 
 # VSCode extensions
 # Hardware (PC and components, Smartphone...)
-# Navigation (Firefox, Chromium, DuckDuckGo)
 # Kickboxing and ninjutsu (Guards...)
 # Parenting (love, patient, time, ...)

@@ -33,7 +33,7 @@ social:
 
 # Plugins a aplicar
 plugins:
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-last-modified-at
 
 # Módulos excluidos
@@ -45,4 +45,3 @@ exclude:
   - webpack
   - dark-mode.js
   - README.md
-  - uses

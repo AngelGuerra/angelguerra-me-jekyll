@@ -20,7 +20,7 @@
 
     <section class="inline-flex items-center justify-around w-full p-10 xl:p-16">
       {% for social in site.social %}
-        <a class="text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ social.url }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="{{ social.icon }}">
+        <a class="transition duration-500 ease-in-out text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper" href="{{ social.url }}" target="_blank" rel="noopener noreferrer me" data-class="w-full, fill-current" data-icon="{{ social.icon }}">
           <noscript>
             {{ social.name }}
           </noscript>

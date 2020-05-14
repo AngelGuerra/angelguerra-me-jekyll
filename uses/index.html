@@ -1,13 +1,32 @@
 ---
 layout: default
-title: Tecnologías
-description: Tecnologías
-sitemap: false
+title: Tecnologías que utilizo en mi día a día como desarrollador
+description: Como desarrollador, utilizo múltiples herramientas y software, aquí intento poner un listado que te permita conocer con qué trabajo
+header:
+    title: /uses en mi día a día
+    subtitle: Inspirado por el proyecto <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer" title="Lista de páginas que detallan las configuraciones, equipo y software de los desarrolladores" class="text-blue-600 font-normal">uses.tech</a> de <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer" title="Página web de Wes Bos" class="text-blue-600 font-normal">Wes Bos</a>, voy a ir poniendo aquí las herramientas que utilizo en mi día a día como desarrollador.
+    addon: Gracias <a href="https://www.ardillan.com/" target="_blank" rel="noopener noreferrer" title="Página web de Ardillán" class="text-blue-600 font-normal">@ardillán</a> por descubrirme la página.
 ---
 
-<h2>Softare</h2>
-
-<ul>
-    
-</ul>
-
+{% for use in site.data.uses %}
+    {% assign _use = use.es %}
+    <section class="pb-3">
+        <header>
+            <h3 class="text-xl">{{ _use.title }}</h3>
+        </header>
+        <section class="flex content-start flex-wrap">
+            {% for item in _use.items %}
+                <div class="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 xl:w-1/5 h-40 pr-4 py-2">
+                    <div class="flex flex-col h-full p-2 items-center justify-around rounded border shadow hover:shadow-md cursor-pointer" data-clickpropagation>
+                        <a class="inline-block text-gray-400 hover:text-green-400 uppercase w-10 h-10 xl:w-12 xl:h-12 svg-wrapper mb-3" href="{{ item.url }}" target="_blank" rel="noopener noreferrer" data-class="w-full, fill-current, transition, duration-500, ease-in-out" data-icon="{{ item.icon }}" data-fill="true">
+                            <noscript>
+                                {{ item.name }}
+                            </noscript>
+                        </a>
+                        <span class="text-sm text-center">{{ item.name }}</span>
+                    </div>
+                </div>
+            {% endfor %}
+        </section>
+    </section>
+{% endfor %}
