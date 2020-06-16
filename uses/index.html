@@ -1,16 +1,25 @@
 ---
 layout: default
 title: Tecnologías que utilizo en mi día a día como desarrollador
-description: Como desarrollador, utilizo múltiples herramientas y software, aquí intento poner un listado que te permita conocer con qué trabajo
+description: >-
+    Como desarrollador, utilizo múltiples herramientas y software, aquí intento poner un listado que te permita conocer
+    con qué trabajo
 header:
     title: /uses en mi día a día
-    subtitle: Inspirado por el proyecto <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer" title="Lista de páginas que detallan las configuraciones, equipo y software de los desarrolladores" class="text-blue-600 font-normal">uses.tech</a> de <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer" title="Página web de Wes Bos" class="text-blue-600 font-normal">Wes Bos</a>, voy a ir poniendo aquí las herramientas que utilizo en mi día a día como desarrollador.
-    addon: Gracias <a href="https://www.ardillan.com/" target="_blank" rel="noopener noreferrer" title="Página web de Ardillán" class="text-blue-600 font-normal">@ardillán</a> por descubrirme la página.
+    subtitle: >-
+        Inspirado por el proyecto <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer"
+        title="Lista de páginas que detallan las configuraciones, equipo y software de los desarrolladores"
+        class="text-blue-600 font-normal">uses.tech</a> de <a href="https://uses.tech/" target="_blank"
+        rel="noopener noreferrer" title="Página web de Wes Bos" class="text-blue-600 font-normal">Wes Bos</a>,
+        voy a ir poniendo aquí las herramientas que utilizo en mi día a día como desarrollador.
+    addon: >-
+        Gracias <a href="https://www.ardillan.com/" target="_blank" rel="noopener noreferrer"
+        title="Página web de Ardillán" class="text-blue-600 font-normal">@ardillán</a> por descubrirme la página.
 ---
 
 {% for use in site.data.uses %}
     {% assign _use = use.es %}
-    <section class="pb-3">
+    <article class="pb-3">
         <header>
             <h3 class="text-xl">{{ _use.title }}</h3>
         </header>
@@ -28,5 +37,8 @@ header:
                 </div>
             {% endfor %}
         </section>
-    </section>
+        <footer class="font-light text-justify mt-3">
+            {{ _use.description | markdownify }}
+        </footer>
+    </article>
 {% endfor %}

@@ -1,8 +1,16 @@
 - key: development
   es:
     title: Desarrollo
+    description: >-
+      En mi portátil personal tengo instalado **OpenSUSE Tumbleweed**, una versión *rolling release*, es decir, con
+      desarrollo contínuo, sin versiones periódicas. En mi portátil del trabajo tengo instalado **Ubuntu 18.04** ya
+      que es el sistema operativo que más he utilizado para programar y me siento cómodo trabajando con él.
+      <br/>
+      Mis proyectos personales se encuentran en **Github** y para programar utilizo **VSCode**, en la terminal me
+      siento más o menos cómodo utilizando **Vim**, pero sobretodo lo utilizo para hacer cambios en caliente en
+      producción &#13025;.
     items:
-      - name: OpenSUSE Tumbleweed
+      - name: OpenSUSE
         url: https://www.opensuse.org/
         icon: opensuse
       - name: Ubuntu
@@ -11,6 +19,9 @@
       - name: VSCode
         url: https://code.visualstudio.com/
         icon: visualstudiocode
+      - name: Vim
+        url: https://www.vim.org/
+        icon: vim
       - name: Github
         url: https://github.com/
         icon: github
@@ -18,6 +29,12 @@
 - key: comunication
   es:
     title: Comunicación
+    description: >-
+      Principalmente en el trabajo utilizo **Slack**, em mi día a día utilizo **WhatsApp** y **Telegram**, la
+      primera porque no me queda más remedio ya que la segunda es mi preferida. Como proveedor de correo electrónico
+      utilizo principalmente **Gmail** pero poco a poco voy empezando a utilizar para las cosas más importantes
+      **Proton Mail**. De hecho, poco a poco me gustaría ir utilizando alternativas más "privadas" en todos los
+      ámbitos de Internet.
     items:
       - name: Slack
         url: https://slack.com/
@@ -38,6 +55,16 @@
 - key: navigation
   es:
     title: Navegación
+    description: >-
+      Relacionado con la privacidad que he comentado más arriba, mis navegadores preferidos son aquellos que están
+      más orientados a eso... la privacidad. Rara vez, aunque cada vez más, utilizo **Tor**, pero mi navegador
+      principal en los ordenadores es **Firefox** y, por el trabajo, también utilizo **Chromium** (*&#128173;
+      ¿Llegará el día en el que no tengamos que estar preocupándonos de cómo queda la maquetación, que tanto sudor
+      y esfuerzo nos ha llevado, en los distintos navegadores?*). En el smartphone utilizo, principalmente,
+      **DuckDuckGo** y **Brave** pero también pretendo utilizar **Tor**.
+      <br/>
+      De hecho, tengo instalados esos tres, Google Chrome y el navegador nativo del smartphone... ¡Qué indecisión!
+      Los dos últimos no los utilizo pero los tres primeros los utilizo casi de forma aletoria &#128589;.
     items:
       - name: Mozilla Firefox
         url: https://www.mozilla.org/es-ES/firefox/new/
@@ -48,14 +75,71 @@
       - name: Chromium
         url: https://www.chromium.org/
         icon: googlechrome
+      - name: Brave
+        url: https://brave.com/
+        icon: brave
       - name: Tor
         url: https://www.torproject.org/
         icon: tor
 
-# https://www.dawntraoz.com/uses/ Styling?
-# https://james.brooks.page/uses/ Categories?
+- key: hardware
+  es:
+    title: Hardware
+    description: >-
+      Mi ordenador personal es un **Huawei** MateBook D de 2017, tiene un procesador **Intel** i7 de 7ª generación y
+      una pantalla de 15,6", en su momento me costó 650€, va fino excepto por el fallo que comenté más arriba &#128546;.
+      Para el trabajo utilizo un **Asus** ZenBook con una pantalla de 14" y un procesador **AMD** Ryzen 7, el precio
+      de este fue de 690€ en 2020. Cuando trabajo con ellos los conecto a un monitor
+      [**hp** 27es](https://support.hp.com/es-es/document/c06028442) de, efectivamente, 27", creo que lo adquirí en
+      2016 y el precio fueron unos 250/300€.
+      <br/>
+      Como complementos, para conectar los monitores utilizo un [switch de marca GANA de
+      13€](https://www.amazon.es/GANA-Switcher-Conmutador-Adaptador-DVD-Player/dp/B075R2DFJ1). El equipo de sonido
+      es un [Trust 2.1](https://www.trust.com/es/product/19019-tytan-2-1-speaker-set-black) del año... a saber, el
+      precio, creo recordar, que no era muy elevado, unos 60/80€.
+    items:
+      - name: Huawei
+        url: https://www.huawei.com/en/
+        icon: huawei
+      - name: Intel
+        url: https://www.intel.com/
+        icon: intel
+      - name: hp
+        url: https://www8.hp.com/es/es/home.html
+        icon: hp
+      - name: Asus
+        url: https://www.asus.com/es/
+        icon: asus
+      - name: AMD
+        url: https://www.amd.com/es
+        icon: amd
 
-# VSCode extensions
-# Hardware (PC and components, Smartphone...)
-# Kickboxing and ninjutsu (Guards...)
-# Parenting (love, patient, time, ...)
+- key: other
+  es:
+    title: Otros
+    description: >-
+      Como habrás observado con el Hardware, no me gusta hacer grandes gastos si puedo tirar con cosas más baratas,
+      mi smartphone es un **Xiaomi** Redmi 4, comprado en 2017 y contó unos 140€, ¡espero que me siga durando!
+      <br/>
+      En mi vida adulta (> 18 años en España), he tenido dos coches y ambos unos **Citröen**, primero un ZX que me
+      regaló mi hermano tras pagar una reparación, así que me costó 300€ y me duró desde el 2010 hasta el 2017 y
+      actualmente una Xsara Picasso que espero me dure lo mismo, esta ya me costó 3000€ y fue muy mala compra...
+      <br/>
+      Tanto el coche como el abandono del uso de **Steam** se debe al nacimiento de mis hijos &#10084;, ¡pero planeo
+      retomar lo último algún día! Mientras lo planeo... ¡me entretengo con el **Duolingo**!
+    items:
+      - name: Xiaomi
+        url: https://www.mi.com/global/
+        icon: xiaomi
+      - name: Citröen
+        url: https://www.citroen.es/
+        icon: citroen
+      - name: Samsung
+        url: https://www.samsung.com/es/
+        icon: samsung
+      - name: Duolingo
+        url: https://www.duolingo.com/
+        icon: duolingo
+      - name: Steam
+        url: https://store.steampowered.com/
+        icon: steam
