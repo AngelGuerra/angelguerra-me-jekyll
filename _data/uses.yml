@@ -25,7 +25,6 @@
       - name: Github
         url: https://github.com/
         icon: github
-
 - key: comunication
   es:
     title: Comunicación
@@ -33,8 +32,8 @@
       Principalmente en el trabajo utilizo **Slack**, em mi día a día utilizo **WhatsApp** y **Telegram**, la
       primera porque no me queda más remedio ya que la segunda es mi preferida. Como proveedor de correo electrónico
       utilizo principalmente **Gmail** pero poco a poco voy empezando a utilizar para las cosas más importantes
-      **Proton Mail**. De hecho, poco a poco me gustaría ir utilizando alternativas más "privadas" en todos los
-      ámbitos de Internet.
+      **Proton Mail**. De hecho, me gustaría ir utilizando alternativas más "privadas" en todos los ámbitos de
+      Internet.
     items:
       - name: Slack
         url: https://slack.com/
@@ -51,7 +50,6 @@
       - name: Proton Mail
         url: https://protonmail.com/
         icon: protonmail
-
 - key: navigation
   es:
     title: Navegación
@@ -60,10 +58,10 @@
       más orientados a eso... la privacidad. Rara vez, aunque cada vez más, utilizo **Tor**, pero mi navegador
       principal en los ordenadores es **Firefox** y, por el trabajo, también utilizo **Chromium** (*&#128173;
       ¿Llegará el día en el que no tengamos que estar preocupándonos de cómo queda la maquetación, que tanto sudor
-      y esfuerzo nos ha llevado, en los distintos navegadores?*). En el smartphone utilizo, principalmente,
+      y esfuerzo nos ha llevado, en los distintos navegadores?*). En el *smartphone* utilizo, principalmente,
       **DuckDuckGo** y **Brave** pero también pretendo utilizar **Tor**.
       <br/>
-      De hecho, tengo instalados esos tres, Google Chrome y el navegador nativo del smartphone... ¡Qué indecisión!
+      De hecho, tengo instalados esos tres, *Google Chrome* y el navegador nativo del *smartphone*... ¡Qué indecisión!
       Los dos últimos no los utilizo pero los tres primeros los utilizo casi de forma aletoria &#128589;.
     items:
       - name: Mozilla Firefox
@@ -81,13 +79,14 @@
       - name: Tor
         url: https://www.torproject.org/
         icon: tor
-
 - key: hardware
   es:
     title: Hardware
     description: >-
       Mi ordenador personal es un **Huawei** MateBook D de 2017, tiene un procesador **Intel** i7 de 7ª generación y
-      una pantalla de 15,6", en su momento me costó 650€, va fino excepto por el fallo que comenté más arriba &#128546;.
+      una pantalla de 15,6", en su momento me costó 650€, va fino excepto por un fallo con el *touchpad* que hace que,
+      aparentemente de forma aleatoria, éste deje de funcionar &#128546;. Nada que un ratón inalámbrico
+      [Trust Verto](https://www.trust.com/es/product/22879-verto-ergonomic-wireless-mouse) no pueda solucionar.
       Para el trabajo utilizo un **Asus** ZenBook con una pantalla de 14" y un procesador **AMD** Ryzen 7, el precio
       de este fue de 690€ en 2020. Cuando trabajo con ellos los conecto a un monitor
       [**hp** 27es](https://support.hp.com/es-es/document/c06028442) de, efectivamente, 27", creo que lo adquirí en
@@ -113,20 +112,19 @@
       - name: AMD
         url: https://www.amd.com/es
         icon: amd
-
 - key: other
   es:
     title: Otros
     description: >-
       Como habrás observado con el Hardware, no me gusta hacer grandes gastos si puedo tirar con cosas más baratas,
-      mi smartphone es un **Xiaomi** Redmi 4, comprado en 2017 y contó unos 140€, ¡espero que me siga durando!
+      mi *smartphone* es un **Xiaomi** Redmi 4, comprado en 2017 y contó unos 140€, ¡espero que me siga durando!
       <br/>
-      En mi vida adulta (> 18 años en España), he tenido dos coches y ambos unos **Citröen**, primero un ZX que me
+      En mi vida adulta (> 18 años en España), he tenido dos coches y ambos **Citröen**, primero un ZX que me
       regaló mi hermano tras pagar una reparación, así que me costó 300€ y me duró desde el 2010 hasta el 2017 y
       actualmente una Xsara Picasso que espero me dure lo mismo, esta ya me costó 3000€ y fue muy mala compra...
       <br/>
-      Tanto el coche como el abandono del uso de **Steam** se debe al nacimiento de mis hijos &#10084;, ¡pero planeo
-      retomar lo último algún día! Mientras lo planeo... ¡me entretengo con el **Duolingo**!
+      Tanto el cambio de coche como el abandono del uso de **Steam** se debe al nacimiento de mis hijos &#10084;,
+      ¡pero planeo retomar lo último algún día! Mientras lo planeo... ¡me entretengo con el **Duolingo**!
     items:
       - name: Xiaomi
         url: https://www.mi.com/global/
