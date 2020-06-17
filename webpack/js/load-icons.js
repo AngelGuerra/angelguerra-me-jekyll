@@ -30,6 +30,7 @@ export default function loadIcons() {
       tor: require("simple-icons/icons/tor"),
       twitter: require("simple-icons/icons/twitter"),
       ubuntu: require("simple-icons/icons/ubuntu"),
+      unsplash: require("simple-icons/icons/unsplash"),
       vim: require("simple-icons/icons/vim"),
       visualstudiocode: require("simple-icons/icons/visualstudiocode"),
       webpack: require("simple-icons/icons/webpack"),
