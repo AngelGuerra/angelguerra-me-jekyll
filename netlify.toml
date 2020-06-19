@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Link = "</assets/css/firefox.css>;rel=stylesheet;media=all"

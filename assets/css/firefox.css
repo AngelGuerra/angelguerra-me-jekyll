@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body main > a:first-of-type {
+  display: block;
+  top: 1rem;
+  left: 1rem;
+}
+
+body main #mozillafirefox p {
+  font-family: Inter, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  color: #FF7139;
+}
+
+body main #mozillafirefox code {
+  font-family: Inter, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  color: #fff;
+  background-image: linear-gradient(to right, #582acb, #962bb9 100%);
+}

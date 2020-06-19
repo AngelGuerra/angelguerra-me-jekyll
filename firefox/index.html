@@ -1,0 +1,30 @@
+---
+layout: default
+title: Firefox y los estilos cargados a través de las cabeceras http
+description: >-
+    ¿Sabías que...? En Firefox, y quizá navegadores basados en Firefox, se pueden adjuntar estilos (css) en las cabeceras http
+header:
+    title: ¿Sabías que en Firefox ésta página se ve distinta?
+    subtitle: >-
+        En Firefox y navegadores basados en firefox, es posible cargar hojas de estilos (css) a través de las cabeceras
+        http, echa un vistazo a las cabeceras de esta página.
+sitemap: false
+---
+
+<section id="mozillafirefox">
+    <p class="mb-3">
+        <a
+            href="https://css-tricks.com/adding-css-to-a-page-via-http-headers/"
+            title="Artículo enlazado en CSS Tricks"
+            target="_blank"
+            rel="noopener"
+            class="text-blue-600 font-normal">
+            Te dejo un artículo
+        </a> en el que se habla sobre ello para que conozcas más los detalles de esta curiosa técnica.
+    </p>
+    
+    
+    <code class="block text-center p-4 border rounded firefox">
+        Header add Link "&lt;firefox.css&gt;;rel=stylesheet;media=all"
+    </code>
+</section>
