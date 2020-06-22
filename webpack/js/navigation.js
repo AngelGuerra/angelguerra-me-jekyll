@@ -44,17 +44,16 @@ export default function navigation() {
       }
     },
     navigationItems = [
-      new NavigationItem("home", "/", "🏡️", "Página principal"),
-      new NavigationItem("uses", "/uses", "💻️", "Tecnologías que utilizo en mi día a día como desarrollador"),
+      new NavigationItem("home", "/", "🏡️", "Main page"),
+      new NavigationItem("uses", "/uses/", "💻️", "Techs used by me as a developer"),
+      new NavigationItem("cookies", "/cookies/", "🍪", "Cookies policy"),
     ],
     nav = new Navigation(navigationItems);
 
   nav.sayHello();
-  nav.printTitle("Bienvenid@ a mi página web");
-  nav.printMessage("Leer con voz de Diego 🐯️ (Ice Age): ¿Dónde está la navegación de la página? ¡Aquí está!");
+  nav.printTitle("Welcome to my personal website!");
+  nav.printMessage("Read with Diego's 🐯️ (Ice Age) voice: Where's the navigation? There it is!");
   nav.print();
-  nav.printMessage("Aquí te dejo el objeto menú, por si quieres trastear con él");
-  nav.debug();
-  nav.printMessage("¡Gracias por la visita! Salúdame, si te apetece, en Twitter -> @AngelLGuerra");
+  nav.printMessage("Thanks for your visit! 📣, if you want, in Twitter -> @AngelLGuerra");
   nav.sayBye();
 }
