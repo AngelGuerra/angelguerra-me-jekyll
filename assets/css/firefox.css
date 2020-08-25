@@ -6,12 +6,12 @@ body main > a:first-of-type {
   left: 1rem;
 }
 
-body main #mozillafirefox p {
+body main #firefoxbrowser p {
   font-family: Inter, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   color: #FF7139;
 }
 
-body main #mozillafirefox code {
+body main #firefoxbrowser code {
   font-family: Inter, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   color: #fff;
   background-image: linear-gradient(to right, #582acb, #962bb9 100%);

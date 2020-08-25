@@ -17,7 +17,7 @@ export default function loadIcons() {
       intel: require("simple-icons/icons/intel"),
       jekyll: require("simple-icons/icons/jekyll"),
       linkedin: require("simple-icons/icons/linkedin"),
-      mozillafirefox: require("simple-icons/icons/mozillafirefox"),
+      firefoxbrowser: require("simple-icons/icons/firefoxbrowser"),
       netlify: require("simple-icons/icons/netlify"),
       opensuse: require("simple-icons/icons/opensuse"),
       protonmail: require("simple-icons/icons/protonmail"),

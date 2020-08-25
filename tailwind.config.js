@@ -2,6 +2,9 @@ const plugin = require("tailwindcss/plugin");
 const darkMode = require("./dark-mode");
 
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: false,
   theme: {},
   variants: {
