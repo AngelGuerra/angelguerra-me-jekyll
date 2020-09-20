@@ -4,6 +4,7 @@ const darkMode = require("./dark-mode");
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
   purge: false,
   theme: {},
